@@ -1,0 +1,415 @@
+/* @package     Tacnix (Web Studio)
+ * @subpackage  TacThemes
+ * @author      Mukunda Panchal <mukunda@tacnix.com>
+ * @copyright   (c) Copyright 2013 Tacnix. All Rights Reserved.
+ * @link        http://tacnix.com/clients/
+ * @ver         Version 1.0
+ ----------------------------------------------------------------------------------------------------*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 78%;
+	font-family: "Ubuntu", sans-serif;
+	line-height: 1.50em;
+	background: #333300;
+}
+
+a, a:hover {
+	color: #666600;
+	text-decoration: underline;
+	-webkit-transition: 0.5px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+form {
+	background-color: #FFFF99;
+	border: solid 1px #FFCC00;
+	padding: 8px 12px;
+	margin-bottom: 25px;
+}
+
+.block-box {
+	margin: 0 0 10px;
+	position: relative;
+	overflow: hidden;
+	display: block;
+}
+
+.pull-left, .pull-right {
+	margin: 0;
+	padding: 0;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.space_3 {
+	left: 3px
+}
+
+.space_5 {
+	left: 5px
+}
+
+.space_7 {
+	left: 7px
+}
+
+.space_10 {
+	left: 10px
+}
+
+.space_13 {
+	left: 13px
+}
+
+.space_15 {
+	left: 15px
+}
+
+.space_17 {
+	left: 17px
+}
+
+.space_20 {
+	left: 20px
+}
+
+.space_23 {
+	left: 23px
+}
+
+span {
+	display: block;
+	margin: auto auto 5px;
+}
+
+span.name input, span.email input, span.number input, span.phone input, span.tel input, span.mobile input, span.url input, span.website input, span.link input, span.message textarea {
+	margin: 5px 0;
+	padding: 5px 5px;
+	font-size: 0.99em;
+}
+
+span.name input {
+	width: 100px;
+}
+
+span.number input {
+	width: 120px;
+}
+
+span.phone input, span.tel input, span.mobile input {
+	width: 80px;
+}
+
+span.email input, span.message textarea {
+	width: 220px;
+}
+
+span.name input.big {
+	width: 90%;
+}
+
+span.number input.big, span.phone input.big, span.tel input.big, span.mobile input.big {
+	width: 80%;
+}
+
+span.email input.big, span.message textarea.big {
+	width: 96%;
+}
+
+span.message textarea.big {
+	height: auto;
+	min-height: 100px;
+}
+input, input[typ="text"], input[typ="password"], input[typ="email"], input[typ="number"], input[typ="tel"], input[typ="radio"], input[typ="checkbox"], input[typ="submit"], input[typ="reset"], input[typ="button"], select, textarea, label, legend, fieldset {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 0.90em;
+	font-weight: 500;
+}
+
+.float-small {
+	float: left;
+	display: inline;
+}
+
+/* @typography     Headings (P, H1, H2, H3, H4, H5, H6)
+ ----------------------------------------------------------------------------------------------------*/
+
+p {
+	padding: 0.10em 0 0.20em;
+}
+
+h1 {
+	font-size: 3.30em;
+}
+
+h2 {
+	font-size: 2.00em;
+}
+
+h3 {
+	font-size: 1.70em;
+}
+
+h4 {
+	font-size: 1.50em;
+}
+
+h5 {
+	font-size: 1.30em;
+}
+
+h6 {
+	font-size: 0.90em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #666600;
+	font-family: "Titillium Web", sans-serif;
+	text-transform: capitalize;
+	margin-bottom: 0.50em;
+	line-height: 1.00em;
+}
+
+h1, h2, h3 {
+	margin-top: 0.50em;
+	font-weight: 300;
+}
+
+h4, h5, h6 {
+	margin-top: 0.25em;
+	font-weight: 700;
+}
+
+blockquote {
+	color: #000000;
+	padding: 10px 25px;
+	border-left: 15px solid #000;
+	font-style: oblique;
+}
+
+blockquote a {
+	color: #003366;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+blockquote a:hover {
+	color: #006699;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+/* @hr Horizontal Rules
+ ------------------------------------------------------------------- */
+hr {
+	border-width: 1px 0 0 0;
+	border-collapse: collapse;
+	border-color: #CCCCCC;
+	border-style: solid;
+	border-spacing: 1px;
+	margin: 0.2em 0;
+	clear: both;
+}
+
+span.button a {
+	font-family: "Titillium Web", sans-serif;
+	text-decoration: none;
+	padding: 3px 12px;
+	text-align: center;
+	color: #000000;
+	background-color: #FFBB00;
+	border: solid 1px #FFBB00;
+	-webkit-box-shadow: inset 0 0 5px #FFFF99;
+	-moz-box-shadow: inset 0 0 5px #FFFF99;
+	-o-box-shadow: inset 0 0 5px #FFFF99;
+	box-shadow: inset 0 0 5px #FFFF99;
+	/*-webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 -o-border-radius: 5px;
+	 border-radius: 5px;*/
+}
+
+span.button a:hover, span.button a:focus {
+	text-decoration: none;
+	-webkit-box-shadow: inset 0 0 5px #FFCC66;
+	-moz-box-shadow: inset 0 0 5px #FFCC66;
+	-o-box-shadow: inset 0 0 5px #FFCC66;
+	box-shadow: inset 0 0 5px #FFCC66;
+}
+
+span.button a:hover {
+	background-color: #FFCC33;
+}
+
+span.button a:focus {
+	background-color: #CCCCCC;
+}
+
+.page-header {
+	margin: 0;
+	padding: 15px 30px;
+	background-color: #FFCC00;
+	color: #000000;
+	font-size: 2.40em;
+}
+
+.tacnix {
+	clear: both;
+	color: #555555;
+	background-color: #FFFFFF;
+}
+
+.tacnix #page-top, .tacnix #page-head, .tacnix #page-content, .tacnix #page-sidebar, .tacnix #page-footer {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.tacnix #page-top {
+	background-color: #000000;
+	height: auto;
+	min-height: 85px;
+}
+
+#page-top ul.page-top {
+	margin: auto;
+	padding-left: 50px;
+	top: 40px;
+	position: relative;
+}
+
+#page-top ul.page-top li {
+	display: inline;
+	list-style: none;
+	font-family: "Titillium Web", sans-serif;
+	font-weight: 300;
+}
+
+#page-top ul.page-top li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline;
+	padding: 3px 12px;
+	color: #FFFFFF;
+	/*-webkit-border-radius: 3px;
+	 -moz-border-radius: 3px;
+	 -o-border-radius: 3px;
+	 border-radius: 3px;*/
+}
+
+#page-top ul.page-top li a:hover, #page-top ul.page-top li.active a {
+	color: #000000;
+	background-color: #FFBB00;
+	-webkit-box-shadow: inset 0 0 5px #FFFF99;
+	-moz-box-shadow: inset 0 0 5px #FFFF99;
+	-o-box-shadow: inset 0 0 5px #FFFF99;
+	box-shadow: inset 0 0 5px #FFFF99;
+}
+
+.tacnix #page-head {
+	height: 300px;
+	background-color: #FFCC00;
+}
+
+#page-head h1 {
+	font-size: 2.00em;
+	font-weight: 300;
+	color: #000000;
+}
+
+#page-head .page-more a, #page-head .page-more a:hover {
+	text-decoration: none;
+}
+
+#page-head .page-head, #page-head .page-slider {
+	margin: 0;
+	padding: 45px 35px 15px;
+	display: block;
+}
+
+.tacnix #page-content {
+	padding: 0 !important;
+}
+
+#page-content .page-featured, #page-content .page-content {
+	padding: 15px 20px;
+}
+
+#page-content .page-content p.complate {
+	border-bottom: solid 1px #CCCCCC;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+}
+
+#page-content .page-story {
+	padding: 5px 20px;
+}
+
+#page-content .page-form {
+	padding: 5px 20px;
+}
+
+.tacnix #page-sidebar {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+}
+
+#page-sidebar a {
+	color: #666600;
+	padding: 0 10px 0 0;
+	text-decoration: none;
+	border-right: 1px solid #FFBB00;
+}
+
+#page-sidebar a:hover {
+	border-right: 1px solid #666600;
+}
+
+.tacnix #page-footer {
+	color: #000000;
+	border-top: 1px solid #CCCCCC;
+}
+
+#page-footer .page-widget {
+	margin: 15px 20px 10px;
+	padding: 0;
+}
+
+#page-footer .page-footer {
+	margin: auto 0 50px;
+	padding: 0;
+	height: 45px;
+}
+
+#page-footer a {
+	color: #666600;
+	text-decoration: none;
+}
+
+#page-footer a:hover {
+	text-decoration: underline;
+}
+
+#page-footer ul.page-footer-nav {
+	margin: 0;
+	padding: 0;
+}
+
+#page-footer ul.page-footer-nav li {
+	display: block;
+	list-style: none;
+}
+
