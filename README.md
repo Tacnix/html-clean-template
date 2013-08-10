@@ -1,4 +1,4 @@
 html-cleen-template
 ===================
 
-Freash and Cleen HTML Template from Tacnix
+Fresh and Clean HTML Template from Tacnix
